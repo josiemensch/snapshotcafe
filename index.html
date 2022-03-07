@@ -7,52 +7,47 @@
      <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>Snap Shot Cafe</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid text-light">
-          <a class="navbar-brand" href="#">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+       <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/snapshotcafe.png" width="50" height="50" class="d-inline-block align-top" alt="Snap shot cafe logo" />
+            Snap Shot cafe
+          </a>
+  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
+                <a href="#about" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="#">Map</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">photography</a></li>
-                </ul>
+                <a href="#Menu" class="nav-link">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Map</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-info" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
+  
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm 3 col-md-2 align-self-center">  
-                    <img src="img/snapshotcafe.png" class="img-fluid" />                
+                                  
                 </div>
             </div>
             <div class="col">
@@ -105,9 +100,7 @@
         </div>
     </footer>
 
-</body>
 
-</html>
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
