@@ -4,6 +4,7 @@ body {
 }
 h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 h2 {
     color: rgb(51, 30, 3);
@@ -13,8 +14,8 @@ h2 {
     padding-top: 10%;
     padding-bottom: 10%;
     background-image: url(../img/pexels-michael-burrows-7125626.jpg);
-    color: rgb(238, 231, 231);
     background-size: cover;
+    color: rgb(238, 231, 231);
     text-align: center;
     font-family: cursive;
 }
@@ -50,4 +51,12 @@ h2 {
     color: white;
     background-color: rgb(233, 181, 133);
     border-color: rgb(233, 181, 133);
+}
+.image-fluid{
+    max-width: 100%;
+    height: auto;
+    max-height: 800px;
+}
+.aboutus {
+    background-color: rgb(228, 188, 143);
 }
