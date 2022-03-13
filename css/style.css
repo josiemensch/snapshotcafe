@@ -13,6 +13,7 @@ h2 {
     background-color:blanchedalmond;
     color: black;
 }
-.navbar-dark {
-    background-color: rgb(179, 126, 88);
+
+.bg-light {
+    background-color: beige !important;
 }
