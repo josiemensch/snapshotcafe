@@ -59,4 +59,10 @@ h2 {
 }
 .aboutus {
     background-color: rgb(228, 188, 143);
+    max-height: 800px;
 }
+
+ .carousel-inner img {
+    max-height:800px; 
+}
+
