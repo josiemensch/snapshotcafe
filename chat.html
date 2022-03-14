@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/chat.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Snap Shot Cafe</title>
@@ -49,22 +50,44 @@
     </nav>
 
 
-    <div class="container-fluid body about-us-body">
-        <div class="row">
-            <div class="col-3">
-                    <img src="/img/pexels-ksenia-chernaya-3951751.jpg" class="img-fluid" alt="coffee" />
-                
-            </div>
-            <div class="col-7">
-                <p>
-                    <h1 class="aboutus">Snap Shot Cafe was founded due to a passion for coffee, and a love of photography. Founded in 2019, and locally supported Snap Shot cafe
-                        has become one of the most popular hangouts for the locals, of all ages. What makes our cafe unique is the photography aspect. Many of our
-                        townspeople enjoy coffee, as well as photography. Snap Shot Cafe allows you to enjoy both. 
-                    </h1>
-                   
-                    
-                    
-                </p>
+    <div class="container-fluid body">
+        <div class="page-content page-container" id="page-content">
+            <div class="padding">
+                <div class="row container d-flex justify-content-center">
+                    <div class="col-md-4">
+                        <div class="box box-warning direct-chat direct-chat-warning">
+                            <div class="box-header with-border">
+                                <h3 class="box-title">Chat Messages</h3>
+                                <div class="box-tools pull-right"> <span data-toggle="tooltip" title="" class="badge bg-yellow" data-original-title="3 New Messages">20</span> <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i> </button> <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts"> <i class="fa fa-comments"></i></button> <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i> </button> </div>
+                            </div>
+                            <div class="box-body">
+                                <div class="direct-chat-messages">
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-info clearfix"> <span class="direct-chat-name pull-left">Snap Shot Cafe </span> <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span> </div> <img class="direct-chat-img" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="message user image">
+                                        <div class="direct-chat-text"> Hi, How can I help you today? </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-info clearfix"> <span class="direct-chat-name pull-right">Customer</span> <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span> </div> <img class="direct-chat-img" src="https://img.icons8.com/office/36/000000/person-female.png" alt="message user image">
+                                        <div class="direct-chat-text"> Hi, I would like to know your vegan selections </div>
+                                    </div>
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-info clearfix"> <span class="direct-chat-name pull-left">Snap Shot Cafe</span> <span class="direct-chat-timestamp pull-right">23 Jan 5:37 pm</span> </div> <img class="direct-chat-img" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="message user image">
+                                        <div class="direct-chat-text"> Yes, we have vegan options, let me provide you a link to our options  </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-info clearfix"> <span class="direct-chat-name pull-right">Customer</span> <span class="direct-chat-timestamp pull-left">23 Jan 6:10 pm</span> </div> <img class="direct-chat-img" src="https://img.icons8.com/office/36/000000/person-female.png" alt="message user image">
+                                        <div class="direct-chat-text"> Thank you </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-footer">
+                                <form action="#" method="post">
+                                    <div class="input-group"> <input type="text" name="message" placeholder="Type Message ..." class="form-control"> <span class="input-group-btn"> <button type="button" class="btn btn-warning btn-flat">Send</button> </span> </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -84,7 +107,7 @@
                     <a href="http://instagram.com/">Instagram</a>
                     <a href="http://facebook.com/">Facebook</a>
                     <a href="chat.html">Chat</a>
-                    
+                   
                 </div>
                 <div class="col">
                     <a role="button" class="btn btn-link" href="tel:+15555551234"><i class="fa fa-phone"></i>
