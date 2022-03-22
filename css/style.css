@@ -63,6 +63,9 @@ h2 {
 }
 
  .carousel-inner img {
-    max-height:800px; 
+    height: 400px; width: 200px;
 }
 
+.carousel-inner img {
+     margin: auto; 
+}
